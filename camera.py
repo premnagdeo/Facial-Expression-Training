@@ -10,9 +10,9 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 class VideoCamera(object):
     def __init__(self):
         #To test the model on a video
-		self.video = cv2.VideoCapture("facial_exp.mkv")
+	self.video = cv2.VideoCapture("facial_exp.mkv")
 		
-		#To test the model on a live camera feed
+	#To test the model on a live camera feed
         #self.video = cv2.VideoCapture(0)
 
     def __del__(self):

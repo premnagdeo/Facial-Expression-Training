@@ -1,6 +1,6 @@
 # Facial-Expression-Training
 
-Facial expression recognition using a Convolutional Neural Network
+Facial Expression Recognition using a Convolutional Neural Network.
 
 Model Accuracy - 64.26%
 

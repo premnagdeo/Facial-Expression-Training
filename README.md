@@ -32,11 +32,19 @@ Clone this repo to your local machine using
 
 ### Usage
 
-Run the pretrained model (model.json) with parameters (model_weights.h5):
+* Run the pretrained model (model.json) with parameters (model_weights.h5):
 
 > python main.py
 
-To retrain the model, extract the dataset from `dataset.zip` and run `Facial_Expression_Training.ipynb`
+This will start flask and you can view the out at http://127.0.0.1:5000/
+
+
+* To switch to live camera feed Facial Expression Detection:
+In `camera.py`, use:
+> self.video = cv2.VideoCapture(0)
+
+
+* To retrain the model, extract the dataset from `dataset.zip` and run `Facial_Expression_Training.ipynb`
 
 ## Model
 

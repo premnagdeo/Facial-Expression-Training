@@ -40,6 +40,7 @@ This will start flask and you can view the out at http://127.0.0.1:5000/
 
 
 * To switch to live camera feed Facial Expression Detection:
+
 In `camera.py`, use:
 > self.video = cv2.VideoCapture(0)
 

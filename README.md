@@ -36,7 +36,7 @@ Clone this repo to your local machine using
 
 > python main.py
 
-This will start flask and you can view the out at http://127.0.0.1:5000/
+This will start flask and you can view the output at http://127.0.0.1:5000/
 
 
 * To switch to live camera feed Facial Expression Detection:

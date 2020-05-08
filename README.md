@@ -31,14 +31,14 @@ Install all the requirements with pip as follows:
 ### Clone
 Clone this repo to your local machine using 
 
-> git clone https://github.com/premnagdeo/Facial-Expression-Training.git
+` git clone https://github.com/premnagdeo/Facial-Expression-Training.git `
 
 
 ### Usage
 
 * Run the pretrained model (model.json) with parameters (model_weights.h5):
 
-> python main.py
+` python main.py `
 
 This will start flask and you can view the output at http://127.0.0.1:5000/
 
@@ -46,7 +46,8 @@ This will start flask and you can view the output at http://127.0.0.1:5000/
 * To switch to live camera feed Facial Expression Detection:
 
 In `camera.py`, use:
-> self.video = cv2.VideoCapture(0)
+
+` self.video = cv2.VideoCapture(0) `
 
 
 * To retrain the model, extract the dataset from `dataset.zip` and run `Facial_Expression_Training.ipynb`

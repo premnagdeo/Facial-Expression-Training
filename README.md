@@ -23,6 +23,10 @@ https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression
 
 > Flask (1.1.2)
 
+Install all the requirements with pip as follows:
+
+`pip install -r requirements.txt`
+
 
 ### Clone
 Clone this repo to your local machine using 
